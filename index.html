@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body{
+            margin: 0;
+        }
+            .slash {
+                text-decoration: line-through;
+            }
+            .background{
+                background-color: #f44336 !important;
+            }
+            .event1,.event2{
+                padding: 10px;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                font-family: 'Courier New', Courier, monospace;
+                margin: 5px;
+            }
+            .event1{
+                background: whitesmoke;
+            }
+            .event2{
+                background-color: antiquewhite;
+            }
+            .align{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: teal;
+                padding: 10px;
+                width: 98.7%;
+            }
+            .center{
+                width: 50%;
+            }
+            .heading{
+                padding-top: 50px;
+                font-size: 25px;
+                font-family: cursive;
+                color: white;	
+                text-align: center;
+            }
+            .titleField {
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px 0 0 5px;
+                width: 80%;
+              }
+              
+              .add {
+                background-color: #3498db;
+                color: white;
+                border: none;
+                border-radius: 0 5px 5px 0;
+                padding: 10px 20px;
+                cursor: pointer;
+              }
+              .list{
+                margin: 0;
+                padding: 0;
+              }
+
+
+    </style>
+</head>
+<body>
+   
+        <div class="align">
+        <div class="center">
+        <div class="heading">
+            <h2>My To Do List</h2>
+        </div>
+        <div class="form">
+            <form class="textfields">
+               <input type="text" class="titleField" placeholder="Title..." id="input"> 
+               <button type="button" class="add" >Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="bottom">
+        <ul class="list">
+        </ul>
+    </div>
+    <script src="/s1.js"></script>
+</body>
+</html>
